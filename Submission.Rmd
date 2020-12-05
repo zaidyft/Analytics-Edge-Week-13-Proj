@@ -1,0 +1,16 @@
+---
+title: "Submission"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+df_train <- read.csv("Data/train.csv", stringsAsFactors = FALSE)
+str(df_train)
+
+```
+
